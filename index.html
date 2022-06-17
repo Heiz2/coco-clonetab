@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>CloneTab</title>
+  </head>
+  <body>
+    <!-- Service Icon-->
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <!-- Timer -->
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <!-- Battery Icon -->
+      <div class="status-bar__column">
+        <span>110% </span>
+        <i class="fas fa-battery-three-quarters fa-lg"></i>
+      </div>
+    </div>
+    <!-- Header -->
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Hello Visite CloneTab</h1>
+      <p class="welcome-header__text">Login To your E-mail or Code</p>
+    </header>
+    <!-- Home ! -->
+    <form id="login-form" action="friend.html" method="get">
+      <input
+        name="username"
+        type="text"
+        required
+        placeholder="E-mail or Code"
+      />
+      <input name="password" type="text" required placeholder="password" />
+      <input type="submit" value="Login" />
+      <a href="#">Find ID or Password</a>
+    </form>
+
+    <div id="no-mobile">
+      <span>Your Screen To Big T-T</span>
+    </div>
+
+    <!-- Load Scripts-->
+    <script
+      src="https://kit.fontawesome.com/797ac09648.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

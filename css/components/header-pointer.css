@@ -1,0 +1,9 @@
+.header__setting__pointer {
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  top: -7.5px;
+  right: -8px;
+  border-radius: 2.5px;
+  position: absolute;
+}
